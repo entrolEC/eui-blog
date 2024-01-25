@@ -1,11 +1,11 @@
 {
-  "name": "2skydev blog",
-  "short_name": "2skydev blog",
+  "name": "eui's blog",
+  "short_name": "eui's blog",
   "icons": [
     {
-      "src": "/favicon-128x128.png",
+      "src": "/favicon-384x384.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "384x384"
     },
     {
       "src": "/favicon-192x192.png",
