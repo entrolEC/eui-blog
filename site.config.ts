@@ -2,31 +2,30 @@ import { siteConfig } from './lib/site-config';
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd1e89e9e42eb4ebf9486ae0374039efc',
+  rootNotionPageId: 'e804b71727f44a74a1eb862346736e01',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '2skydev blog',
+  name: "eui's blog",
   domain: 'blog.2skydev.com',
-  author: '2skydev',
+  author: 'eui',
 
   // open graph metadata (optional)
-  description: '2skydev blog - developer blog',
+  description: "eui's blog - developer blog",
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: '2skydev',
+  github: 'entrolEC',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon:
-    'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d2daa37-61d0-45b6-b333-9a2bd0bdc3ee%2Fprofile_%25E1%2584%2580%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AA%25E1%2584%258C%25E1%2585%25B5%25E1%2586%25AF_circle.png?table=block&id=d1e89e9e-42eb-4ebf-9486-ae0374039efc&spaceId=2eb5336b-2edb-42d0-bc6c-95d72d4d1b74&width=250&userId=bef10e95-202b-4b6b-9626-7af866b6f9ba&cache=v2',
+  defaultPageIcon: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc6c1b667-ac44-428f-bbf8-9c08bd0fb0bb%2Fc8c9fbd2-e964-4e6f-9161-10d72e25921e%2Fapple-icon-precomposed.png?table=block&id=e804b717-27f4-4a74-a1eb-862346736e01&spaceId=c6c1b667-ac44-428f-bbf8-9c08bd0fb0bb&width=250&userId=690bfdae-5d5c-446d-ade4-d2b085860745&cache=v2',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -53,12 +52,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
+      title: '전체',
+      pageId: 'e804b71727f44a74a1eb862346736e01',
     },
     {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
+      title: '전체',
+      pageId: 'e804b71727f44a74a1eb862346736e01',
       menuPage: true,
     },
   ],
@@ -78,5 +77,5 @@ export default siteConfig({
   defaultTheme: 'system',
 
   // enable comment
-  enableComment: true,
+  enableComment: false,
 });
