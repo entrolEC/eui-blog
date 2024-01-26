@@ -25,7 +25,7 @@ Allow: /
 Disallow: /api/get-tweet-ast/*
 Disallow: /api/search-notion
 Disallow: /draftview
-
+Disallow: /euichans-portfolio
 Sitemap: ${host}/sitemap.xml
 `);
   } else {

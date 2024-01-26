@@ -45,29 +45,22 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlAdditions: {
+    '/euichans-portfolio': '074c244c6d074108b911cf3ff8ed6257'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '포스트',
+      title: '블로그',
       pageId: 'e804b71727f44a74a1eb862346736e01',
+      menuPage: true
     },
     {
-      title: '포스트',
+      title: '블로그',
       pageId: 'e804b71727f44a74a1eb862346736e01',
-      menuPage: true,
-    },
-    {
-      title: '포트폴리오',
-      pageId: '074c244c6d074108b911cf3ff8ed6257',
-    },
-    {
-      title: '포트폴리오',
-      pageId: '074c244c6d074108b911cf3ff8ed6257',
-      menuPage: true,
     }
   ],
 
