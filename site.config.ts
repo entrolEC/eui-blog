@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: "eui's blog",
-  domain: 'blog.2skydev.com',
+  domain: 'euichan.xyz',
   author: 'eui',
 
   // open graph metadata (optional)
