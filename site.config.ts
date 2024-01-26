@@ -52,14 +52,23 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '전체',
+      title: '포스트',
       pageId: 'e804b71727f44a74a1eb862346736e01',
     },
     {
-      title: '전체',
+      title: '포스트',
       pageId: 'e804b71727f44a74a1eb862346736e01',
       menuPage: true,
     },
+    {
+      title: '포트폴리오',
+      pageId: '074c244c6d074108b911cf3ff8ed6257',
+    },
+    {
+      title: '포트폴리오',
+      pageId: '074c244c6d074108b911cf3ff8ed6257',
+      menuPage: true,
+    }
   ],
 
   // -------- custom configs (2skydev) -------------
