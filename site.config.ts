@@ -51,18 +51,18 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: '블로그',
-      pageId: 'e804b71727f44a74a1eb862346736e01',
-      menuPage: true
-    },
-    {
-      title: '블로그',
-      pageId: 'e804b71727f44a74a1eb862346736e01',
-    }
-  ],
+  navigationStyle: 'default',
+  // navigationLinks: [
+  //   {
+  //     title: '블로그',
+  //     pageId: 'e804b71727f44a74a1eb862346736e01',
+  //     menuPage: true
+  //   },
+  //   {
+  //     title: '블로그',
+  //     pageId: 'e804b71727f44a74a1eb862346736e01',
+  //   }
+  // ],
 
   // -------- custom configs (2skydev) -------------
 
